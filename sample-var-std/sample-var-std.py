@@ -13,3 +13,10 @@ def sample_var_std(x: list) -> dict:
     std = np.sqrt(vari)
 
     return {"variance":float(vari),"standard_deviation":float(std)}
+
+    """
+    len(x)    # → 2        only counts rows
+    x.shape   # → (2, 3)   rows and cols separately
+    x.size    # → 6        total elements (2×3)
+    
+    """
