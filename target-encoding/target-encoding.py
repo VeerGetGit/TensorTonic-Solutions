@@ -20,6 +20,7 @@ def target_encoding(categories: list, targets: list) -> list:
 
     
     """
+    output/encoding dictionary is craeted
     encoding = {"a": 2.0, "b": 2.0, "c": 4.0}
 
     [encoding[cat] for cat in categories]
