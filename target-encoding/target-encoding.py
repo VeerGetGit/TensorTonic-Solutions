@@ -17,4 +17,14 @@ def target_encoding(categories: list, targets: list) -> list:
         Output[new_cat[i]] = sum/count
   
     return [Output[cat] for cat in categories]   
-    pass
+
+    
+    """
+    encoding = {"a": 2.0, "b": 2.0, "c": 4.0}
+
+    [encoding[cat] for cat in categories]
+
+    categories = ["a",  "b",  "a",  "c" ]
+               → [2.0,  2.0,  2.0,  4.0 ]
+           
+    """
