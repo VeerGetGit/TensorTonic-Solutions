@@ -6,7 +6,9 @@ def tanh(x: list) -> np.ndarray:
     """
     # Write code here
     x = np.asarray(x, dtype =float)
-    tan_sol = np.tanh(x)
+    # tan_sol = np.tanh(x)
+    return (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x))
+    # return tan_sol
 
-    return tan_sol
+    
     pass
